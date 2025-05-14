@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:backgroundTint="#F8F9FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Question Text -->
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:paddingBottom="8dp"
+            android:textStyle="bold"
+            android:text="Question goes here" />
+
+        <!-- User's Answer Text -->
+        <TextView
+            android:id="@+id/userAnswerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="4dp"
+            android:background="#E1F5FE"
+            android:padding="8dp"
+            android:textColor="#0277BD"
+            android:text="Your Answer: " />
+
+        <!-- Correct Answer Text -->
+        <TextView
+            android:id="@+id/correctAnswerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"
+            android:background="#E8F5E9"
+            android:layout_marginTop="5dp"
+            android:padding="8dp"
+            android:textColor="#09330b"
+            android:text="Correct Answer: " />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainnnn"
+    tools:context=".AdminQuestionDetails"
+    android:background="#F2F1F1">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewtopp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="35dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/custom_edittext"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:gravity="center_horizontal"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/white"
+                android:text="1. First Questions" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/custom_edittext"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:gravity="center_vertical"
+                android:text="Who create this amazing quiz app?" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/cardView1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/textViewOptionA"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:background="@drawable/quiz_option_border"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="Shah Rukh Khan" />
+
+        <TextView
+            android:id="@+id/textViewOptionB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/quiz_option_answer_border"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="Salman Khan" />
+
+        <TextView
+            android:id="@+id/textViewOptionC"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/quiz_option_border"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="Abhishek Jetani" />
+
+        <TextView
+            android:id="@+id/textViewOptionD"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/quiz_option_border"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="Akshay Kumar" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Back"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:layout_margin="16dp"
+    android:background="?android:attr/windowBackground">
+
+    <!-- Main Layout inside CardView -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Question"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="#333333"
+            android:gravity="center"/>
+
+        <!-- EditText for Question -->
+        <EditText
+            android:id="@+id/editTextQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Question"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edit_text_background"/>
+
+        <!-- EditText for Option A -->
+        <EditText
+            android:id="@+id/editTextOptionA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option A"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edit_text_background"/>
+
+        <!-- EditText for Option B -->
+        <EditText
+            android:id="@+id/editTextOptionB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option B"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edit_text_background"/>
+
+        <!-- EditText for Option C -->
+        <EditText
+            android:id="@+id/editTextOptionC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option C"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edit_text_background"/>
+
+        <!-- EditText for Option D -->
+        <EditText
+            android:id="@+id/editTextOptionD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option D"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edit_text_background"/>
+
+        <!-- EditText for Correct Answer -->
+        <EditText
+            android:id="@+id/editTextAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correct Answer (A, B, C, or D)"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/buttonSubmitQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Question"
+            android:textSize="16sp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

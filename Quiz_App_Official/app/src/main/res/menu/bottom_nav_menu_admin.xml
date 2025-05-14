@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item-->
+<!--        android:id="@+id/nav_dashboard"-->
+<!--        android:icon="@drawable/ic_menu_camera"-->
+<!--        android:title="Dashboard" />-->
+<!--    <item-->
+<!--        android:id="@+id/nav_manage_users"-->
+<!--        android:icon="@drawable/ic_menu_gallery"-->
+<!--        android:title="Manage Users" />-->
+<!--    <item-->
+<!--        android:id="@+id/nav_settings"-->
+<!--        android:icon="@drawable/ic_menu_slideshow"-->
+<!--        android:title="Settings" />-->
+</menu>

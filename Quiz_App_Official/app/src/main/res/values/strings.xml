@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Quiz_App_Official</string>
+    <string name="title_activity_test">test</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_test2">test2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_user_home">UserHomeActivity</string>
+    <string name="title_activity_bottom_menu">BottomMenu</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_content">
+    Your privacy is important to us. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our application. By using the app, you agree to the collection and use of information in accordance with this policy.\n\n
+    We may collect personal data such as your name, email address, and usage data. We use this information to improve our services, personalize your experience, and communicate with you about updates or changes to the app.\n\n
+    We take the security of your personal information seriously and implement appropriate measures to protect it. However, please note that no method of transmission over the internet is 100% secure.\n\n
+    If you have any questions or concerns about our privacy policy, feel free to contact us.
+    </string>
+
+</resources>
